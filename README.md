@@ -163,8 +163,8 @@ Uma receita auxiliar pode ter todos os itens de uma receita principal.
 
 #### Receitas de exemplo
 
-- [Bolo de Olá Mundo com cobertura de chocolate](receitas/bolo-de-olá-mundo-com-cobertura-de-chocolate.chefe) (
-  Esta funciona como receita de verdade! Originalmente publicada por Mike Worth [nesse site](http://www.mike-worth.com/2013/03/31/baking-a-hello-world-cake/)).
+- [Bolo de Olá Mundo com cobertura de chocolate](receitas/bolo-de-olá-mundo-com-cobertura-de-chocolate.chefe)
+(Esta funciona como receita de verdade! Originalmente publicada por Mike Worth [nesse site](http://www.mike-worth.com/2013/03/31/baking-a-hello-world-cake/)).
 
 - [Suflê de Olá Mundo](receitas/sufle-de-ola-mundo.chefe)
 
