@@ -83,40 +83,40 @@ Modo de Preparo.
 
 O modo de preparo contém as instruções para a receita. Estas são escritas em sentenças. Quebras de linha são ignoradas no modo de preparo de uma receita. Instruções válidas são:
 
-- `Retire [o|a] `_`ingrediente`_` do refrigerador.`
+- `Retire [o|a]`_`ingrediente`_`do refrigerador.`
   Lê um valor do `STDIN` para o _ingrediente_, sobrescrevendo qualquer valor anterior.
 
-- `Coloque [o|a] `_`ingrediente`_` na [iª] tigela.`
+- `Coloque [o|a]`_`ingrediente`_`na [iª] tigela.`
   Coloca um _ingrediente_ na _iª_ tigela.
 
-- `Misture [o|a] `_`ingrediente`_` na [iª] tigela.`
+- `Misture [o|a]`_`ingrediente`_`na [iª] tigela.`
   Remove o valor do topo da _iª tigela_ e o coloca no _ingrediente_.
 
-- `Adicione [o|a] `_`ingrediente`_` [na [iª] tigela].`
+- `Adicione [o|a]`_`ingrediente`_`[na [iª] tigela].`
   Adicona o valor de _ingrediente_ ao valor do ingrediente no topo da _iª tigela_, e guarda o resultado na _iª tigela_.
 
-- `Remova [o|a] `_`ingrediente`_` [da [iª] tigela].` 
+- `Remova [o|a]`_`ingrediente`_`[da [iª] tigela].`
   Subtrai o valor de _ingrediente_ do valor do ingrediente no topo da _iª tigela_, e guarda o resultado na _iª tigela_.
 
-- `Combine [o|a] `_`ingrediente`_` [na [iª] tigela].`
+- `Combine [o|a]`_`ingrediente`_`[na [iª] tigela].`
   Multiplica o valor de _ingrediente_ pelo valor do ingrediente no topo da _iª tigela_, e guarda o resultado na _iª tigela_.
 
-- `Divida [o|a] `_`ingrediente`_` [na [iª] tigela].`
+- `Divida [o|a]`_`ingrediente`_`[na [iª] tigela].`
   Divida o valor de _ingrediente_ pelo valor do ingrediente no topo da _iª tigela_, e guarda o resultado na _iª tigela_.
 
 - `Adicione os ingredientes sólidos [na [iª] tigela].`
   Adiciona o valor de todos os ingredientes sólidos e guarda o resultado na _iª tigela_.
 
-- `Liquidifique [o|a] `_`ingredientes`_`.`
+- `Liquidifique [o|a]`_`ingredientes`_`.`
   Torna o ingrediente em líquido, ou seja, um caractere Unicode para saída de dados.
 
 - `Liquidifique os conteúdo da [iª] tigela.`
   Torna todos os ingredientes da _iª tigela_ em líquido, ou seja, em caracteres Unicode para saída de dados.
 
-- `Misture [a [iª] tigela] por `_` número`_`minutos.`
+- `Misture [a [iª] tigela] por`_`número`_`minutos.`
   Empurra o primeiro ingredientes na _iª tigela_, tal que o ingrediente no topo vai _número_ de lugares pra baixo e todos os outros ingredientes no caminho são mandados um lugar pra cima. Se não há este número de ingredientes na tigela, o ingrediente no topo vai para a posição mais abaixo, e todos os outros sobem um lugar.
 
-- `Misture [o|a] `_`ingrediente`_` na [iª] tigela.`
+- `Misture [o|a]`_`ingrediente`_`na [iª] tigela.`
   Empurra o primeiro ingredientes na _iª tigela_, tal que o ingrediente no topo desde o valor de _ingrediente_ lugares pra baixo e todos os outros ingredientes no caminho são mandados um lugar pra cima. Se não há este número de ingredientes na tigela, o ingrediente no topo vai para a posição mais abaixo, e todos os outros sobem um lugar.
 
 - `Misture bem [a [iª] tigela].`
@@ -128,16 +128,16 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
 - `Despeje o conteúdo da [iª] tigela na [jª] assadeira.`
   Copia todos os ingredientes da _iª_ tigela para a _jª_ assadeira, mantendo a ordem os colocando em cima de qualquer coisa que já esteja na assadeira.
 
-- _`Verbo`_` [o|a] `_`ingrediente`_`.`
+- _`Verbo`_`[o|a]`_`ingrediente`_`.`
   Marca o começo de um _loop_. Deve aparecer como um par com a declaração abaixo. O _loop_ é executado desta forma: o valor do _ingrediente_ é checado. Se é diferente de zero, o corpo do _loop_ é executado até chegar na declaração _enquanto_. O valor do ingrediente é checado novamente. Se é diferente de zero, o _loop_ executa de novo. Se em qualquer checagem o valor do ingrediente for zero, o _loop_ para e a execução continua na declaração depois do _enquanto_. _Loops_ podem ser aninhados.
 
-- _`Verbo`_` [[o|a] `_`ingrediente`_`] enquanto `_`frase`_`.`
+- _`Verbo`_`[[o|a]`_`ingrediente`_`] enquanto`_`frase`_`.`
   Marca o fim de um _loop_. Deve aparecer como um par com a declaração acima. O _verbo_ nesta declaração é arbitrário e ignorado. Se o _ingrediente_ aparece nesta declaração, seu valor é decrementado por 1 quando esta declaração for executada. O _ingrediente_ não precisa ser o mesmo _ingrediente_ do começo do _loop_.
 
 - `Deixe descansar.`
   Causa o fim prematuro e imediato do _loop_ mais interno em que esta declaração aparece e continua na declaração após o _enquanto_.
 
-- `Sirva com `_`receita-auxiliar`_`.`
+- `Sirva com`_`receita-auxiliar`_`.`
   Invoca um sous-chef para imediatamente preparar a _receita-auxiliar_. O chefe que o chamou aguarda até que o sous-chef acabe para continuar a sua receita. Veja a seção de receitas auxiliares abaixo.
 
 - `Refrigere [por _número_ horas].`
