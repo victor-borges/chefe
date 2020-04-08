@@ -10,7 +10,7 @@ A sintaxe e a especificação da linguagem foram traduzidas para o português.
 ## Princípios de _design_
 
 - Receitas de programas devem almejar não apenas a compilação, mas também serem fáceis de preparar e deliciosas.
-- Receitas usam o sistema métrico, mas podem usar medidas tradicionais da culinária como colheres e xícaras.
+- Receitas usam o sistema internacional de unidades, mas podem usar medidas tradicionais da culinária como colheres, xícaras e copos.
 
 ## Conceitos da linguagem
 
@@ -53,7 +53,7 @@ Ingredientes.
 Cada ingrediente é listado em uma linha. O valor inicial é um número, e é opcional. Tentar utilizar um ingrediente sem um valor definido é um erro de tempo de execução. A `medida` pode ser qualquer uma das seguintes medidas:
 
 - `g | kg | pitada[s]`: Indicam ingredientes sólidos.
-- `ml | l | fio[s]`: In ingredientes líquidos.
+- `ml | l | fio[s]`: Indicam ingredientes líquidos.
 - `colher[es] [de [sopa | chá]] | xícara[s] | copo[s]`: Indicam tanto ingredientes sólidos como líquidos.
 
 O nome do ingrediente pode ser qualquer frase, e pode incluir espaços em branco. A lista de ingredientes é opcional. Se um ingrediente é repetido, o novo valor é usado e os valores antigos são descartados.
