@@ -151,7 +151,7 @@ A última frase de uma receita é a quantidade de porções que ela rende, ou, a
 Rendimento: <i>número-de-porções</i> (porções | pessoas).
 </pre>
 
-Este comando escreve para o `STDOUT` o conteúdo das primeiras `número-de-porções` assadeiras. Começa para `1ª assadeira`, removendo os valores do topo um por um e os imprimindo, até que a assadeira fique vazia. Então, progride para a próxima assadeira, até que todas sejam impressas.
+Este comando escreve para o `STDOUT` o conteúdo das primeiras `número-de-porções` assadeiras. Começa pela `1ª assadeira`, removendo os valores do topo um por um e os imprimindo, até que a assadeira fique vazia. Então, progride para a próxima assadeira, até que todas sejam impressas.
 
 O rendimento é opcional numa receita, mas é necessário se o programa tiver qualquer saída!
 
