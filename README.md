@@ -74,10 +74,10 @@ Pré-aqueça o forno a <i>temperatura</i> °C.
 
 Algumas receitas requerem aquecimento. A temperatura do forno é opcional.
 
-#### Modo de Preparo
+#### Modo de preparo
 
 <pre>
-Modo de Preparo.
+Modo de preparo.
 <i>métodos de preparação</i>
 </pre>
 
@@ -110,7 +110,7 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
 - `Liquidifique [o|a]`_`ingredientes.`_
   Torna o ingrediente em líquido, ou seja, um caractere Unicode para saída de dados.
 
-- `Liquidifique os conteúdo da [iª] tigela.`
+- `Liquidifique o conteúdo da [iª] tigela.`
   Torna todos os ingredientes da _iª tigela_ em líquido, ou seja, em caracteres Unicode para saída de dados.
 
 - `Misture [a [iª] tigela] por`_`número`_`minutos.`
