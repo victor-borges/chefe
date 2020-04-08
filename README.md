@@ -89,7 +89,7 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
 - `Coloque [o|a]`_`ingrediente`_`na [iª] tigela.`
   Coloca um _ingrediente_ na _iª_ tigela.
 
-- `Misture [o|a]`_`ingrediente`_`na [iª] tigela.`
+- `Sove [o|a]`_`ingrediente`_`na [iª] tigela.`
   Remove o valor do topo da _iª tigela_ e o coloca no _ingrediente_.
 
 - `Adicione [o|a]`_`ingrediente`_`[na [iª] tigela].`
