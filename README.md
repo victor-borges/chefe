@@ -129,13 +129,13 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
   Copia todos os ingredientes da _iª_ tigela para a _jª_ assadeira, mantendo a ordem os colocando em cima de qualquer coisa que já esteja na assadeira.
 
 - _`Verbo`_`[o|a]`_`ingrediente.`_
-  Marca o começo de um _loop_. Deve aparecer como um par com a declaração abaixo. O _loop_ é executado desta forma: o valor do _ingrediente_ é checado. Se é diferente de zero, o corpo do _loop_ é executado até chegar na declaração _enquanto_. O valor do ingrediente é checado novamente. Se é diferente de zero, o _loop_ executa de novo. Se em qualquer checagem o valor do ingrediente for zero, o _loop_ para e a execução continua na declaração depois do _enquanto_. _Loops_ podem ser aninhados.
+  Marca o começo de um _loop_. Deve aparecer como um par com a declaração abaixo. O _loop_ é executado desta forma: o valor do _ingrediente_ é checado. Se é diferente de zero, o corpo do _loop_ é executado até chegar na declaração _até_. O valor do ingrediente é checado novamente. Se é diferente de zero, o _loop_ executa de novo. Se em qualquer checagem o valor do ingrediente for zero, o _loop_ para e a execução continua na declaração depois do _até_. _Loops_ podem ser aninhados.
 
-- _`Verbo`_`[[o|a] ingrediente] enquanto`_`frase.`_
+- _`Verbo`_`[[o|a] ingrediente] até`_`frase.`_
   Marca o fim de um _loop_. Deve aparecer como um par com a declaração acima. O _verbo_ nesta declaração é arbitrário e ignorado. Se o _ingrediente_ aparece nesta declaração, seu valor é decrementado por 1 quando esta declaração for executada. O _ingrediente_ não precisa ser o mesmo _ingrediente_ do começo do _loop_.
 
 - `Deixe descansar.`
-  Causa o fim prematuro e imediato do _loop_ mais interno em que esta declaração aparece e continua na declaração após o _enquanto_.
+  Causa o fim prematuro e imediato do _loop_ mais interno em que esta declaração aparece e continua na declaração após o _até_.
 
 - `Sirva com`_`receita-auxiliar.`_
   Invoca um sous-chef para imediatamente preparar a _receita-auxiliar_. O chefe que o chamou aguarda até que o sous-chef acabe para continuar a sua receita. Veja a seção de receitas auxiliares abaixo.
