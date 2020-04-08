@@ -58,13 +58,13 @@ Cada ingrediente é listado em uma linha. O valor inicial é um número, e é op
 
 O nome do ingrediente pode ser qualquer frase, e pode incluir espaços em branco. A lista de ingredientes é opcional. Se um ingrediente é repetido, o novo valor é usado e os valores antigos são descartados.
 
-#### Tempo de cozimento
+#### Tempo de preparo
 
 <pre>
-Tempo de cozimento: <i>tempo</i> (hora[s] | minuto[s]).
+Tempo de preparo: <i>tempo</i> (hora[s] | minuto[s]).
 </pre>
 
-O tempo de cozimento é opcional. O `tempo` é um número.
+O tempo de preparo é opcional. O `tempo` é um número.
 
 #### Temperatura do forno
 
