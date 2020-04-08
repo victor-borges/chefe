@@ -131,7 +131,7 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
 - _`Verbo`_`[o|a]`_`ingrediente.`_
   Marca o começo de um _loop_. Deve aparecer como um par com a declaração abaixo. O _loop_ é executado desta forma: o valor do _ingrediente_ é checado. Se é diferente de zero, o corpo do _loop_ é executado até chegar na declaração _enquanto_. O valor do ingrediente é checado novamente. Se é diferente de zero, o _loop_ executa de novo. Se em qualquer checagem o valor do ingrediente for zero, o _loop_ para e a execução continua na declaração depois do _enquanto_. _Loops_ podem ser aninhados.
 
-- _`Verbo`_`[[o|a]`_`ingrediente`_`] enquanto`_`frase.`_
+- _`Verbo`_`[[o|a] ingrediente] enquanto`_`frase.`_
   Marca o fim de um _loop_. Deve aparecer como um par com a declaração acima. O _verbo_ nesta declaração é arbitrário e ignorado. Se o _ingrediente_ aparece nesta declaração, seu valor é decrementado por 1 quando esta declaração for executada. O _ingrediente_ não precisa ser o mesmo _ingrediente_ do começo do _loop_.
 
 - `Deixe descansar.`
@@ -140,7 +140,7 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
 - `Sirva com`_`receita-auxiliar.`_
   Invoca um sous-chef para imediatamente preparar a _receita-auxiliar_. O chefe que o chamou aguarda até que o sous-chef acabe para continuar a sua receita. Veja a seção de receitas auxiliares abaixo.
 
-- `Refrigere [por _número_ horas].`
+- `Refrigere [por`_`número`_`horas].`
   Causa o fim prematuro e imediato da receita em que essa declaração aparece. Se for uma receita auxiliar, a receita acaba e a primeira tigela do sous-chef é passada de volta para o chefe que o chamou, normalmente. Se o _número_ de horas for especificado, a receita vai imprimir as _número_ primeiras assadeiras (veja a seção Rendimento abaixo) antes de encerrar.
 
 #### Rendimento
