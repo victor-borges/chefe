@@ -163,9 +163,9 @@ Uma receita auxiliar pode ter todos os itens de uma receita principal.
 
 #### Receitas de exemplo
 
-- [Bolo de Olá Mundo com cobertura de chocolate](https://github.com/victor-borges/chefe/receitas/bolo-de-olá-mundo-com-cobertura-de-chocolate.chefe)
+- [Bolo de Olá Mundo com cobertura de chocolate](https://github.com/victor-borges/chefe/blob/master/receitas/bolo-de-ola-mundo-com-cobertura-de-chocolate.chefe)
 (Esta funciona como receita de verdade! Originalmente publicada por Mike Worth [nesse site](http://www.mike-worth.com/2013/03/31/baking-a-hello-world-cake/)).
 
-- [Suflê de Olá Mundo](https://github.com/victor-borges/chefe/receitas/sufle-de-ola-mundo.chefe)
+- [Suflê de Olá Mundo](https://github.com/victor-borges/chefe/blob/master/receitas/sufle-de-ola-mundo.chefe)
 
-- [Números de Fibonacci com caramelo](https://github.com/victor-borges/chefe/receitas/numeros-de-fibonacci-com-caramelo.chefe)
+- [Números de Fibonacci com caramelo](https://github.com/victor-borges/chefe/blob/master/receitas/numeros-de-fibonacci-com-caramelo.chefe)
