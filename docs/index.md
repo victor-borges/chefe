@@ -52,8 +52,8 @@ Ingredientes.
 
 Cada ingrediente é listado em uma linha. O valor inicial é um número, e é opcional. Tentar utilizar um ingrediente sem um valor definido é um erro de tempo de execução. A `medida` pode ser qualquer uma das seguintes medidas:
 
-- `g | kg | pitada[s]`: Indicam ingredientes sólidos.
-- `ml | l | fio[s]`: Indicam ingredientes líquidos.
+- `g [de] | kg [de] | pitada[s] [de]`: Indicam ingredientes sólidos.
+- `ml [de] | l [de] | fio[s] [de]`: Indicam ingredientes líquidos.
 - `colher[es] [de [sopa | chá]] | xícara[s] | copo[s]`: Indicam tanto ingredientes sólidos como líquidos.
 
 O nome do ingrediente pode ser qualquer frase, e pode incluir espaços em branco. A lista de ingredientes é opcional. Se um ingrediente é repetido, o novo valor é usado e os valores antigos são descartados.
