@@ -1,0 +1,3 @@
+[submodule "chefe-lex"]
+	path = chefe-lex
+	url = https://github.com/victor-borges/chefe-lex.git
