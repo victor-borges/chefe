@@ -131,7 +131,8 @@ O modo de preparo contém as instruções para a receita. Estas são escritas em
 - _`Verbo`_`[o|a][s]`_`ingrediente.`_:
   Marca o começo de um _loop_. Deve aparecer como um par com a declaração abaixo. O _loop_ é executado desta forma: o valor do _ingrediente_ é checado. Se é diferente de zero, o corpo do _loop_ é executado até chegar na declaração _até_. O valor do ingrediente é checado novamente. Se é diferente de zero, o _loop_ executa de novo. Se em qualquer checagem o valor do ingrediente for zero, o _loop_ para e a execução continua na declaração depois do _até_. _Loops_ podem ser aninhados.
 
-- _`Verbo`_`[[o|a][s] ingrediente] até`_`frase.`_:
+- _`Verbo`_`[[o|a][s] ingrediente] até [que]`_`frase.`_ ou
+  _`Verbo`_`até [que] [[o|a][s] ingrediente]`_`frase.`_:
   Marca o fim de um _loop_. Deve aparecer como um par com a declaração acima. O _verbo_ nesta declaração é arbitrário e ignorado. Se o _ingrediente_ aparece nesta declaração, seu valor é decrementado por 1 quando esta declaração for executada. O _ingrediente_ não precisa ser o mesmo _ingrediente_ do começo do _loop_.
 
 - `Deixe descansar.`:
